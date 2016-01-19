@@ -13,8 +13,6 @@ class Products(models.model):
 
 class Sales(models.model):
 	Product_name = models.ForeignKey(Products)
-	Short_Description =models.ForeignKey(Products)
-	Sale_price = models.ForeignKey(Products)
 	Date_of_sale = models.DateTimeField()
 	Number_of_Documents = models.IntegerField(default=0)
 
