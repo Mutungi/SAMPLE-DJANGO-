@@ -12,6 +12,7 @@ class Products(models.model):
 	Sale_price = models.IntergerField(default=0)
 
 class Sales(models.model):
+
 	
 
 
